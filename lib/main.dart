@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
+import 'screens/registration_screen.dart';
 
 const purple = Color(0xFF7B61FF);
 const background = Color(0xFF111118);
@@ -24,7 +24,7 @@ class FlexApp extends StatelessWidget {
           primary: purple,
         ),
       ),
-      home: const HomeScreen(),
+      home: const RegistrationScreen(),
     );
   }
 }
